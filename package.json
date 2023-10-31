@@ -1,0 +1,34 @@
+{
+  "devDependencies": {
+    "express": "^4.18.2",
+    "prisma": "^5.4.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-jwt": "^8.4.1",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoclient": "^1.0.3",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "prettier": "^3.0.3"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Eshop",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
