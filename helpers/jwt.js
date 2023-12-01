@@ -1,5 +1,5 @@
-var { expressjwt: jwt } = require("express-jwt");
-//var { expressjwt: jwt } = require('express-jwt');
+//var { expressjwt: jwt } = require("express-jwt");
+var { expressjwt: jwt } = require('express-jwt');
 function authJwt(){
     const secret = process.env.secret;
     const api = process.env.API_URL;
@@ -10,10 +10,10 @@ function authJwt(){
         path: [
             `${api}/users/login`,
             `${api}/users`,
-            `${api}/users/register`,
+            `${api}/users/register`
+            //{url: `${api}/products`, methods: ['GET', 'OPTIONS']}
         ]
     })
-    
     
 }
 module.exports = authJwt;
