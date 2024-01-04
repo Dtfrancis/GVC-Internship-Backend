@@ -6,7 +6,7 @@ const productSchema = mongoose.Schema({
         type: String,
         required: true,
     },
-    description:{
+    descript:{
         type: String,
         required: true,
     },
@@ -25,7 +25,6 @@ const productSchema = mongoose.Schema({
     category:{
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Category',
-        required: true,
     },
 
     countInStock:{

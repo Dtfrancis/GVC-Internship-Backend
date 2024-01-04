@@ -18,12 +18,9 @@ const userRouter = require('./routes/user.routes');
 const dashboardRouter = require('./routes/user.routes');
 
 
-//TODO: Create models for api's
-const Product = require('./models/Product');
-const Order = require('./models/Order');
-const Category = require('./models/Category');
 
-const User = require('./models/User');
+
+const {User} = require('./models/User');
 
 const authJwt = require('./helpers/jwt');
 const errorhandler = require('./helpers/errorhandler');
